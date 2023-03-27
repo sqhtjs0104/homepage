@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.2ee12ba4.css",
-    "main.js": "/homepage/static/js/main.5d35582d.js",
+    "main.js": "/homepage/static/js/main.ffc15c0b.js",
     "static/media/littleMermaid.jpg": "/homepage/static/media/littleMermaid.84da533676f4ec459883.jpg",
     "static/media/interstellar.jpg": "/homepage/static/media/interstellar.6ce21d909bce0860d538.jpg",
     "static/media/titanic.jpg": "/homepage/static/media/titanic.0cb6b8d625c4178d43f1.jpg",
@@ -35,10 +35,10 @@
     "static/media/fightClub.jpg": "/homepage/static/media/fightClub.dbaa9775ada213817e09.jpg",
     "index.html": "/homepage/index.html",
     "main.2ee12ba4.css.map": "/homepage/static/css/main.2ee12ba4.css.map",
-    "main.5d35582d.js.map": "/homepage/static/js/main.5d35582d.js.map"
+    "main.ffc15c0b.js.map": "/homepage/static/js/main.ffc15c0b.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee12ba4.css",
-    "static/js/main.5d35582d.js"
+    "static/js/main.ffc15c0b.js"
   ]
 }
