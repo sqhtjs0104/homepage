@@ -1,11 +1,16 @@
 .clock_wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+
+    .meridiem {
+        margin: 0 5px 15px 0;
+    }
 
     .clock {
         display: inline-block;
         font-size: 80px;
+        margin: 0;
     }
 }

@@ -1,1 +1,1 @@
-.clock_wrapper{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.clock_wrapper .clock{display:inline-block;font-size:80px}/*# sourceMappingURL=clock.min.css.map */
+.clock_wrapper{display:flex;flex-flow:row nowrap;justify-content:center;align-items:flex-end}.clock_wrapper .meridiem{margin:0 5px 15px 0}.clock_wrapper .clock{display:inline-block;font-size:80px;margin:0}/*# sourceMappingURL=clock.min.css.map */

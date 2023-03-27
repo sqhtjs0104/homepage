@@ -1,13 +1,13 @@
 import React, { memo } from 'react';
 
-import Clock from './components/Clock';
 import Weather from './components/Weather';
+import Center from './components/Center';
 
 const App = memo(() => {
   return (
     <>
-      <Clock />
       <Weather />
+      <Center />
     </>
   );
 });

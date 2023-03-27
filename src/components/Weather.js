@@ -36,11 +36,6 @@ const Weather = memo(() => {
     dispatch(getWeather(currentLocation));
   }, [currentLocation]);
 
-  useEffect(() => {
-    if (!data) return;
-
-  }, [data]);
-
   return (
     <div className='weather_wrapper'>
       {
@@ -50,10 +45,12 @@ const Weather = memo(() => {
           data ? (
             <>
               <div>
-                <img className="weather" src={`http://openweathermap.org/img/wn/${data.weather.icon}.png`} alt='Weather' />
-                <span className='temp'>{data.temp}ºC</span>
+                <div>
+                  <img className="weather" src={`http://openweathermap.org/img/wn/${data.weather.icon}.png`} alt='Weather' />
+                  <span className='temp'>{data.temp}ºC</span>
+                </div>
+                <p className='place'>{data.name}</p>
               </div>
-              <p className='place'>{data.name}</p>
             </>
           ) : (
             <></>
