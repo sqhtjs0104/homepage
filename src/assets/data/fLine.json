@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "title": "intern",
+            "quotes": "길은 모두에게 열려있지만 모두가 그 길을 가질 수 있는 것은 아니죠."
+        },
+        {
+            "title": "aboutTime",
+            "quotes": "인생은 다시 돌아올 두 번의 기회가 없다고 생각하고 살아야 해."
+        },{
+            "title": "vanillaSky",
+            "quotes": "인생을 바꿀 기회는 매 분마다 찾아옵니다."
+        },{
+            "title": "soul",
+            "quotes": "만약 제가 오늘 죽는다면 제 삶이 아무것도 아닌 게 될까봐 두려워요."
+        },{
+            "title": "shashankRedemption",
+            "quotes": "치열하게 살던가, 죽기만을 기다리던가."
+        },{
+            "title": "500DaysOfSummer",
+            "quotes": "잊히지 않을 것 같은 무더운 여름 뒤에도 가을은 온다, 분명히."
+        },{
+            "title": "mulan",
+            "quotes": "역경을 이겨내고 핀 꽃이 가장 아름다운 꽃이다."
+        },{
+            "title": "zootopia",
+            "quotes": "우리가 두려워해야 할 건 두려움 뿐이죠."
+        },{
+            "title": "zzanggu",
+            "quotes": "꿈은 도망가지 않아. 도망가는 것은 언제나 나 자신이야."
+        },{
+            "title": "benjaminButton",
+            "quotes": "삶의 종착역은 다 같아. 어떤 길로 가는지가 다를 뿐이지. 넌 너의 길을 가는거야."
+        },{
+            "title": "forrestGump",
+            "quotes": "난 가고 싶은 곳에 가기 위해 뛰었는데 그게 삶의 기회가 될 줄 몰랐어요."
+        },{
+            "title": "scentOfAWoman",
+            "quotes": "인생과는 달리 탱고엔 실수가 없으니까. 스탭이 엉키면, 그게 바로 탱고요."
+        }
+    ]
+}

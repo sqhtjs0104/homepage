@@ -45,12 +45,10 @@ const Weather = memo(() => {
           data ? (
             <>
               <div>
-                <div>
-                  <img className="weather" src={`http://openweathermap.org/img/wn/${data.weather.icon}.png`} alt='Weather' />
-                  <span className='temp'>{data.temp}ºC</span>
-                </div>
-                <p className='place'>{data.name}</p>
+                <img className="weather" src={`http://openweathermap.org/img/wn/${data.weather.icon}.png`} alt='Weather' />
+                <span className='temp'>{data.temp}ºC</span>
               </div>
+              <p className='place'>{data.name}</p>
             </>
           ) : (
             <></>

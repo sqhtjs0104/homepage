@@ -9,7 +9,7 @@ const Clock = memo(() => {
   const setClock = useCallback(() => {
     const target = document.querySelector('.clock');
     target.innerHTML = dayjs().format('hh:mm:ss');
-    const meridiem = document.querySelecotr('.meridiem');
+    const meridiem = document.querySelector('.meridiem');
     if (parseInt(dayjs().format('HH')) >= 13) meridiem.innerHTML = 'P.M';
     else meridiem.innerHTML = 'A.M';
   }, []);
