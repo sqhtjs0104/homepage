@@ -33,7 +33,7 @@ const Weather = memo(() => {
 
   useEffect(() => {
     if (!currentLocation) return;
-    dispatch(getWeather(currentLocation));
+    dispatch(getWeather(currentLocation, process.env.REACT_APP_WEATHER_API_KEY));
   }, [currentLocation]);
 
   return (

@@ -13,10 +13,10 @@ class Weather {
 
     data = null;
 
-    async onGeoSuccess(position) {
+    async onGeoSuccess(position, key) {
         const lat = position.coords.latitude;
         const lon = position.coords.longitude;
-        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&units=metric`;
 
         try {
             const response = await axios.get(url);
