@@ -3,6 +3,7 @@ import React, { memo } from 'react';
 import Background from './components/Background';
 import Weather from './components/Weather';
 import Center from './components/Center';
+import Sidebar from './components/Sidebar';
 
 const App = memo(() => {
   return (
@@ -10,6 +11,7 @@ const App = memo(() => {
       <Background />
       <Weather />
       <Center />
+      <Sidebar />
     </>
   );
 });

@@ -22,6 +22,7 @@ Side project - Homepage
 - gh-pages
 - dotenv
 - axios
+- react-modal
 
 ## About 
 
