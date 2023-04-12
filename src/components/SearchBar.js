@@ -16,7 +16,7 @@ const SearchBar = memo(() => {
 
   return (
     <>
-      <form method='get' action={searchEngine === 'G' ? 'http://www.google.co.kr/search' : 'http://search.naver.com/search.naver'} target='_blank' className='search_wrapper' >
+      <form method='get' action={searchEngine === 'G' ? 'https://www.google.co.kr/search' : 'https://search.naver.com/search.naver'} target='_blank' className='search_wrapper' >
         <div onClick={onChangeSearchEngine} className={searchEngine === 'G' ? 'gg' : 'nv'}>
           {
             searchEngine && searchEngine === 'G' ? (

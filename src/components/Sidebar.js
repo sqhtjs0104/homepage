@@ -1,11 +1,12 @@
-import React, { memo, useState, useCallback, useEffect } from 'react';
-
+import React, { memo, useState, useCallback } from 'react';
 import Modal from 'react-modal';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faCheck, faCalendar } from '@fortawesome/free-solid-svg-icons';
 
 import '../assets/css/sidebar.min.css';
+
+import TodoModal from './TodoModal';
+import Calendar from './Calendar';
 
 const Sidebar = memo(() => {
   const [isMouseOver, setIsMouseOver] = useState(false);
@@ -50,14 +51,14 @@ const Sidebar = memo(() => {
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
-        className='todoModal'
+        className='modal'
         ariaHideApp={false}
       >
         {
           modalContent === 'todo' ? (
-            'todo'
+            <TodoModal/>
           ) : (
-            'calendar'
+            <Calendar/>
           )
         }
       </Modal>

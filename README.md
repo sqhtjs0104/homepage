@@ -23,6 +23,8 @@ Side project - Homepage
 - dotenv
 - axios
 - react-modal
+- styled-components
+- firebase
 
 ## About 
 

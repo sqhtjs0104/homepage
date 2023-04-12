@@ -42,16 +42,17 @@
     }
 }
 
-.todoModal {
+.modal {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    max-width: 90vw;
+    max-height: 90vh;
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 20px;
     box-sizing: border-box;
-    padding: 10px;
     z-index: 2;
+    overflow: hidden;
 }
