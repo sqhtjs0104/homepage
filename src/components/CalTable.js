@@ -110,9 +110,9 @@ const CalTable = memo(({nowTime, setIsSidebarOpen, setCurrentSidebarTarget}) => 
     newDiv.classList.add('td__div');
     newDiv.addEventListener('click', openSidebar);
 
-    if (newDiv.dataset.day % 7 === 6) {
+    if (targetDate.day() === 6) {
       newDiv.classList.add('sat');
-    } else if (newDiv.dataset.day % 7 === 0) {
+    } else if (targetDate.day() === 0) {
       newDiv.classList.add('sun');
     }
 
