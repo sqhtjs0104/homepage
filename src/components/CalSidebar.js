@@ -365,13 +365,13 @@ const CalSidebar = memo(({isOpen, setIsSidebarOpen, targetDate}) => {
           <h3>
             {
               targetDate && (
-                targetDate.day() === 0 ? '월' :
-                targetDate.day() === 1 ? '화' :
-                targetDate.day() === 2 ? '수' :
-                targetDate.day() === 3 ? '목' :
-                targetDate.day() === 4 ? '금' :
-                targetDate.day() === 5 ? '토' :
-                targetDate.day() === 6 ? '일' : '??'
+                targetDate.day() === 0 ? '일' :
+                targetDate.day() === 1 ? '월' :
+                targetDate.day() === 2 ? '화' :
+                targetDate.day() === 3 ? '수' :
+                targetDate.day() === 4 ? '목' :
+                targetDate.day() === 5 ? '금' :
+                targetDate.day() === 6 ? '토' : '??'
               )
             }
           </h3>
