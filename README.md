@@ -27,7 +27,9 @@ Side project - Homepage
 - firebase
 
 ## About
-구글 확장 프로그램 중 홈페이지 사이트로 유명한 모멘텀(https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko)에 영감을 받아 제작한 사이트입니다.   
+구글 확장 프로그램 중 홈페이지 사이트로 유명한   
+모멘텀(https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko)에   
+영감을 받아 제작한 사이트입니다.   
 날씨와 시간을 dayjs, OpenWeatherMap API를 이용해 출력하며,   
 배경 사진 파일과 간단한 JSON 파일을 이용해 배경에 영화 명장면과 명대사를 출력합니다.   
 화면 좌상단의 메뉴를 이용(Button hover), To Do List와 일정 달력을 Modal 팝업으로 이용 가능합니다.
